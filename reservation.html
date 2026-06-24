@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ご予約・お問い合わせ | 青山ホワイトデンタルクリニック</title>
+<meta name="description" content="青山ホワイトデンタルクリニックへのご予約はLINE・電話・WEBフォームから承ります。24時間WEB受付対応。">
+<!-- GTM -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Noto+Serif+JP:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="reservation">
+<div id="site-header"></div>
+<main>
+  <section class="page-hero"><div class="wrap"><span class="en">Reservation</span><h1>ご予約・お問い合わせ</h1></div></section>
+  <nav class="breadcrumb"><a href="index.html">ホーム</a> ／ ご予約・お問い合わせ</nav>
+
+  <section class="section"><div class="wrap">
+    <div class="section-head fade-up"><span class="en">Reservation</span><h2>3つの予約方法</h2>
+      <p class="lead">ご都合に合わせてお選びください。</p></div>
+    <div class="reserve-cards">
+      <div class="reserve-card fade-up"><div class="ic ic--line">LINE</div><h3>LINEで予約</h3>
+        <div class="qr-ph"></div><p>QRコード（プレースホルダ）を読み取り、友だち追加のうえご予約ください。</p>
+        <a class="btn btn--gold" href="#" onclick="return false;">友だち追加（サンプル）</a></div>
+      <div class="reserve-card fade-up"><div class="ic ic--tel">TEL</div><h3>電話で予約</h3>
+        <p>診療時間内にお電話ください。</p><a class="btn btn--ghost" href="tel:0300000000">03-0000-0000</a></div>
+      <div class="reserve-card fade-up"><div class="ic ic--web">WEB</div><h3>WEBで予約</h3>
+        <p>下のフォームから24時間受付しています。</p><a class="btn btn--ghost" href="#web-form">フォームへ</a></div>
+    </div>
+
+    <div id="web-form" class="section-head fade-up"><span class="en">Web Form</span><h2>WEB予約フォーム</h2></div>
+    <form class="form fade-up" data-dummy>
+      <div><label>お名前<span class="req">必須</span></label><input type="text" required></div>
+      <div><label>電話番号<span class="req">必須</span></label><input type="tel" required></div>
+      <div><label>メールアドレス</label><input type="email"></div>
+      <div><label>ご希望のメニュー</label><select><option>一般歯科</option><option>審美・ホワイトニング</option><option>インプラント相談</option><option>マウスピース矯正相談</option></select></div>
+      <div><label>ご希望日時・ご相談内容</label><textarea placeholder="例：来週の午前中、ホワイトニングについて相談したい"></textarea></div>
+      <button type="submit" class="btn btn--gold btn--lg">この内容で予約を申し込む</button>
+    </form>
+    <p style="text-align:center;font-size:12px;color:var(--c-gray);margin-top:16px;">※本サンプルではデータは送信されません。</p>
+  </div></section>
+</main>
+<div id="site-footer"></div>
+<div id="floating-cta"></div>
+<script src="js/main.js"></script>
+</body>
+</html>
